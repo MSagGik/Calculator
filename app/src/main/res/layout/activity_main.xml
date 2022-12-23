@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/edit2"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:text="@string/header1"
+        android:textColor="@color/header1"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textInOut"
+        android:layout_width="233dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="16dp"
+        android:hint="@string/editHint"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:background="@drawable/edit_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInOut">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:layout_marginHorizontal="5dp"
+                android:backgroundTint="@color/btnDigit"
+                android:gravity="center"
+                android:text="@string/_1" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:layout_marginHorizontal="5dp"
+                android:backgroundTint="@color/btnDigit"
+                android:gravity="center"
+                android:text="@string/_2" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:layout_marginHorizontal="5dp"
+                android:backgroundTint="@color/btnDigit"
+                android:gravity="center"
+                android:text="@string/_3" />
+
+            <Button
+                android:id="@+id/buttonAdd"
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:layout_marginHorizontal="5dp"
+                android:backgroundTint="@color/btnKit"
+                android:gravity="center"
+                android:text="@string/add" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:layout_marginHorizontal="5dp"
+                android:backgroundTint="@color/btnDigit"
+                android:gravity="center"
+                android:text="@string/_4" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:layout_marginHorizontal="5dp"
+                android:backgroundTint="@color/btnDigit"
+                android:gravity="center"
+                android:text="@string/_5" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:layout_marginHorizontal="5dp"
+                android:backgroundTint="@color/btnDigit"
+                android:gravity="center"
+                android:text="@string/_6" />
+
+            <Button
+                android:id="@+id/buttonSub"
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:layout_marginHorizontal="5dp"
+                android:backgroundTint="@color/btnKit"
+                android:gravity="center"
+                android:text="@string/sub" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:layout_marginHorizontal="5dp"
+                android:backgroundTint="@color/btnDigit"
+                android:gravity="center"
+                android:text="@string/_7" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:layout_marginHorizontal="5dp"
+                android:backgroundTint="@color/btnDigit"
+                android:gravity="center"
+                android:text="@string/_8" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:layout_marginHorizontal="5dp"
+                android:backgroundTint="@color/btnDigit"
+                android:gravity="center"
+                android:text="@string/_9" />
+
+            <Button
+                android:id="@+id/buttonMul"
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:layout_marginHorizontal="5dp"
+                android:backgroundTint="@color/btnKit"
+                android:gravity="center"
+                android:text="@string/mul" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/buttonDub"
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:layout_marginHorizontal="5dp"
+                android:backgroundTint="@color/btnDigit"
+                android:gravity="center"
+                android:text="@string/dub" />
+
+            <Button
+                android:id="@+id/button0"
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:layout_marginHorizontal="5dp"
+                android:backgroundTint="@color/btnDigit"
+                android:gravity="center"
+                android:text="0" />
+
+            <Button
+                android:id="@+id/buttonEq"
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:layout_marginHorizontal="5dp"
+                android:backgroundTint="@color/btnKit"
+                android:gravity="center"
+                android:text="@string/equ" />
+
+            <Button
+                android:id="@+id/buttonDiv"
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:layout_marginHorizontal="5dp"
+                android:backgroundTint="@color/btnKit"
+                android:gravity="center"
+                android:text="@string/div" />
+        </TableRow>
+
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
