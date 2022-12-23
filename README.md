@@ -1,4 +1,4 @@
 # Calculator
 <p align="left">
-<img src="https://user-images.githubusercontent.com/108148690/209349255-da0d420e-95df-4ebc-9b28-d8292ff614d5.jpeg"/>
+<img src="https://user-images.githubusercontent.com/108148690/209350927-dbbc1ab5-1b3d-4b62-bb60-afab342ce2ef.jpeg"/>
 </p>
